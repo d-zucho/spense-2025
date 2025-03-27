@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import DesktopNav from './components/Header/DesktopNav'
 import SocialRow from './components/SocialRow'
 import SecureMoney from './components/SecureMoney'
+import EditorPreview from './components/EditorPreview'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <SocialRow />
         <SecureMoney />
+        <EditorPreview />
       </main>
     </>
   )
