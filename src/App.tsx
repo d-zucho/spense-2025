@@ -5,6 +5,7 @@ import DesktopNav from './components/Header/DesktopNav'
 import SocialRow from './components/SocialRow'
 import SecureMoney from './components/SecureMoney'
 import EditorPreview from './components/EditorPreview'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <SecureMoney />
         <EditorPreview />
       </main>
+      <Footer />
     </>
   )
 }
